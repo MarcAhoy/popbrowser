@@ -15,6 +15,19 @@
 <body>
 
 <iframe src="https://www.w3docs.com/learn-css/css-id-and-class.html" title="Iframe Example"></iframe>
+  
+<form><br>
+Enter your First Name: <input type="text" id="text"/><br><br>
+<input type="submit" value="Submit" onclick="formdata()"/><br>
+</form>
 
+<script>
+function formdata() 
+{
+var firstname1= document.getElementById("text").value;
+document.writeln("The last name you entered is " + firstname1);
+}
+</script>
+  
 </body>
 </html>
