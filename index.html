@@ -16,19 +16,18 @@
 
 
   
-<input type="text" id="text" name="name">
+<input type="text" id="text" name="url">
 <button onclick="formdata()">enter</button>
 
 <script>
 function formdata() 
 {
-var firstname1= document.getElementById("text").value;
-alert(firstname1)
-document.getElementById('calendar').src = firstname1;
+var url= document.getElementById("text").value;
+document.getElementById('view').src = url;
 }
 </script>
   
-<iframe id="calendar" src="https://duckduckgo.com"></iframe>
+<iframe id="view" src="https://duckduckgo.com"></iframe>
 
   
 </body>
